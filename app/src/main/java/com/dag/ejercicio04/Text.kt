@@ -1,4 +1,4 @@
-package com.dag.ejercicio04.ui.theme
+package com.dag.ejercicio04
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
