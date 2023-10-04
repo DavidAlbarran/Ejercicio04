@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MyTextField()
+                    TextButtomExample()
                 }
             }
         }
@@ -43,6 +43,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     Ejercicio04Theme {
-        MyTextField()
+        TextButtomExample()
     }
 }
