@@ -44,13 +44,12 @@ fun TextButtomExample() {
             .fillMaxWidth()
             .padding(20.dp)
     ) {
-
         TextButton(onClick = { counter++ }) {
             Text(text = "Clicks: $counter")
         }
 
         Button(
-            onClick = { enable },
+            onClick = { enable = false },
             enabled = enable,
             colors = ButtonDefaults.buttonColors(
                 contentColor = Color.White
@@ -61,9 +60,9 @@ fun TextButtomExample() {
         }
 
         OutlinedButton(
-            onClick = { enable },
+            onClick = { enable = false },
             enabled = enable,
-            modifier = Modifier.padding(top = 8.dp)
+            modifier = Modifier.padding(top = 10.dp)
             //colors = ButtonDefaults.buttonColors(
                 //contentColor = Color.White
             //),
